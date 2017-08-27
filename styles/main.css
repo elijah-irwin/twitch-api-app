@@ -35,7 +35,6 @@ input {
   font-family: Roboto, sans-serif;
   font-size:15px;
   width:250px;
-  placeholder:white;
   background:none;
   border:none;
   border-bottom: 1px solid white;
@@ -114,7 +113,7 @@ table {
 .stream {
   background: #4B367C;
   margin-bottom:10px;
-  padding:5px 5px 5px 5px;
+  padding:5px 5px 2px 5px;
   border-radius:2px;
   color:white;
 }
