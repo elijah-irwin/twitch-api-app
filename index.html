@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitch Api App</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+	<div class="container">
+  	<h1><i class="fa fa-twitch" aria-hidden="true"></i> Twitch API App</h1>
+  
+  	<div class="ui">
+	    <button id="online"><i class="fa fa-circle green" aria-hidden="true"></i> Online</button>
+	    <button id="offline"><i class="fa fa-circle red" aria-hidden="true"></i> Offline</button>
+	    <button id="all" class="active">All</button>
+	    <div class="search">
+	      <input type="text" name="searchStreamer" placeholder="Search for a new streamer...">
+	      <button class="addStreamer">Search</button>
+	    </div>
+  	</div>
+    
+	<div class="content">
+	</div>
+</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+</body>
+</html>

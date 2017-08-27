@@ -1,0 +1,131 @@
+html {
+  border-top: 8px solid #4B367C;
+}
+
+body {
+  background-color:#1D1F20;
+  font-family: Roboto, sans-serif;
+}
+
+.ui {
+  margin-bottom:10px;
+}
+
+h1 {
+  color:white;
+  font-weight:100;
+  letter-spacing:1px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color:#F33435;
+}
+
+.search {
+  display:inline;
+  float:right;
+}
+
+input {
+  color:white;
+  font-family: Roboto, sans-serif;
+  font-size:15px;
+  width:250px;
+  placeholder:white;
+  background:none;
+  border:none;
+  border-bottom: 1px solid white;
+  margin-right:5px;
+  transition: .5s;
+}
+
+input:hover {
+  border-bottom: 1px solid #4B367C;
+}
+
+input:focus {
+  outline:none;
+  border-bottom: 1px solid #4B367C;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  font-size:12px;
+  font-weight:300;
+  background-color: #4B367C;
+  border:none;
+  border-radius: 2px;
+  color:white;
+  cursor: pointer;
+  padding:5px 15px;
+  margin-right:1px;
+}
+
+button:focus {
+  outline:none; 
+}
+
+.addStreamer {
+  transition: .7s;
+}
+
+.addStreamer:hover {
+  background:white;
+  color: #4B367C;
+}
+
+.active {
+  border-top: 2px solid #F33435;
+}
+
+td {
+  text-align:center;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#logo {
+  width:90px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin-left:15px;
+}
+
+#onName {
+  color:red;
+}
+
+#viewers i {
+  color:red;
+}
+
+table {
+  font-weight:300;
+  letter-spacing:1px;
+}
+
+.stream {
+  background: #4B367C;
+  margin-bottom:10px;
+  padding:5px 5px 5px 5px;
+  border-radius:2px;
+  color:white;
+}
+
+.fa-trash-o {
+  font-size:1.2em;
+  transition:1s;
+  border-radius:5px;
+}
+
+.fa-trash-o:hover {
+  color:red;
+  cursor: pointer;
+}
